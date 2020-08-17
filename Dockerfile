@@ -12,4 +12,4 @@ RUN apk add --no-cache \
   unzip \
   docker
 
-RUN ["/bin/sleep", "3600"]
+RUN nohup sleep 3600
