@@ -12,4 +12,4 @@ RUN apk add --no-cache \
   unzip \
   docker
 
-RUN nohup sleep 3600
+CMD tail -f /dev/null
